@@ -90,9 +90,7 @@ This is a Project Manager (EPM) at an optical technology company, specializing i
 
 # 📝 个人技能
 
-### 
-
-`甘特图` `Excel` `PPT`  `Python` `AI工具`
+`Excel` `PPT` `Python` `AI`
 
 - 熟练运用常见办公软件，能够使用Excel作甘特图，能够使用PPT简洁描述问题和提供初步解决方案。
 
