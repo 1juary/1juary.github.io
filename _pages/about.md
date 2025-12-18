@@ -101,7 +101,7 @@ This is a Project Manager (EPM) at an optical technology company, specializing i
 - 擅长使用AI工具和搜索引擎对新概念和新信息进行筛查和判断。接受能力强、学习速度快。
 
 
-
+ 
 [//]: # (- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. )
 
 [//]: # ()
