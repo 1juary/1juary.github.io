@@ -17,12 +17,12 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-This is a Project Manager (EPM) at an optical technology company, specializing in mobile camera projects for North American clients. I hold a degree in Cybersecurity from Hangzhou Dianzi University (2019-2023) and is fluent in English (CET-6 with oral certification). With expertise in end-to-end project management, I am skilled in project management, wokring efficiency enhance and cross-functional teamwork.
+I am an **Engineering Project Manager (EPM)** at **Sunny Optical Technology**, specializing in the full lifecycle management (NPI to Mass Production) of mobile camera modules for North American clients. 
+
+I hold a B.S. in **Cyberspace Security** from **Hangzhou Dianzi University** (2019-2023). My expertise lies in technical project management, cross-functional collaboration, and lean manufacturing. I am proficient in **Python and Data Analysis**, leveraging these skills to automate workflows and drive efficiency in complex manufacturing environments.
 
 [//]: # ()
 [//]: # (# 🔥 News)
-
-[//]: # (- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. )
 
 [//]: # (- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. )
 
@@ -51,57 +51,47 @@ This is a Project Manager (EPM) at an optical technology company, specializing i
 
 [//]: # ()
 [//]: # (- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet]&#40;https://github.com&#41;, A, B, C, **CVPR 2020**)
-# 📖 Educations
-- *2019.06 - 2023.06*, Undergraduate, Cybersecurity, Hangzhou Dianzi University, Hangzhou. 
 
-# 👔 Working Experience
-- *2023.06 - now* Project Manager (EPM) at Sunny Optical Technology. 
-  - **项目管理** ：参与北美客户手机摄像头产品从研发到量产全过程。以交付为目的的项目管理。
+# 📖 Education
+- *Sep 2019 - Jun 2023*, B.S. in Cyberspace Security, Hangzhou Dianzi University.
+  - **English Proficiency**: Professional Working Proficiency (CET-6 Certified). Capable of seamless technical communication in all-English environments.
 
-  - **精益管理** ：提升项目团队效率，累计减少无效会议时间超**20,000**分钟，定制超过**10**份优质SOP。
-
-  - **成本管理** ：规划和推动多次项目降本方案落地，提升客户满意度和公司经济效益，累计降本超＄**2X, XXX**。
+# 👔 Work Experience
+- *Jun 2023 - Present*, **Engineering Project Manager (EPM)** at **Sunny Optical Technology**. 
+  - **Project Management**: Managed the full lifecycle (R&D to Mass Production) of mobile camera modules for North American clients, with a primary focus on on-time delivery and quality assurance.
+  - **Lean Management**: Enhanced team efficiency by eliminating over **500** man-hours (approx. 30,000 mins) of ineffective meeting time and establishing **10+** high-quality SOPs.
+  - **Cost Management**: Orchestrated cost reduction initiatives to boost client satisfaction and profitability, achieving total savings of over **$2X,XXX**.
 
 # 💻 Project Experience
-- **手机摄像头试产管理**
-  - **技术管理**
-  
-    - 主导北美客户两代手机超广角后摄项目试产阶段，项目综合良率均超**99**%，量产**100**%交付。
-  
-    - 主导新兴紧凑式红外摄像头技术预研，达成综合良率超**99**%，导入敏捷开发方式，顺利交付。
-  
-    - 主导试产阶段品质和失效分析团队提效工作，开发优质分析路径，单次分析时间减少**48**小时。
+- **Mobile Camera NPI Management (New Product Introduction)**
+  - **Technical Management**
+    - Led the NPI phase for two generations of ultra-wide rear cameras for a major North American client; achieved comprehensive yield rates >**99**% and **100**% delivery for Mass Production.
+    - Directed the R&D of new Compact IR Camera technology, achieving >**99**% yield.
+    - Optimized Failure Analysis (FA) workflows during trial production, reducing analysis time by **48** hours.
+  - **Delivery Management**
+    - Managed **50+** Engineering Change Orders (ECOs) per project, coordinating with **10+** internal stakeholders and **10+** client representatives.
+    - Achieved **100%** delivery success across **100+** batches, drove **3%** cost reduction per project, maintained >**10%** gross margin, and ensured **100%** schedule adherence and issue closure.
+  - **Risk Management**
+    - Conducted comprehensive feasibility and robustness assessments using the 5M1E framework. Reduced defect rates by **500** PPM.
+    - Aligned client expectations with internal capabilities to clarify core requirements, fostering cross-functional collaboration and ensuring schedule adherence.
 
-  - **交付管理**
-  
-    - 跟踪项目进度，单个项目中管理客户设变需求超**50**项，对接内部团队超**10**人，对接客户团队超**10**人。
-    - 所有项目顺利交付，交付批次超**100**笔。在多个项目中，均推动降本超**3**%，项目毛利超**10**%，问题关闭率**100**%，日程达成率**100**%，售后问题关闭率**100**%。
+- **Core Supplier Management**
+  - **Supplier Introduction & NPI**
+    - Led the technical evaluation and integration of 5+ chipsets for diverse camera modules, spanning 1-inch sensors, ultra-wide, main, and drone camera applications.
+    - Achieved >50% cost reduction in R&D projects, while maintaining a 100% record in schedule adherence, client satisfaction, and issue resolution.
 
-  - **风险管理**
-  
-    - 针对内部管理，从人/机/料/法/环，多维度评估项目可行性和稳健性。所负责项目原材料交付**0**延误，品质风险降低**500**PPM。
-  
-    - 针对客户管理，维护客户期望水平，挖掘核心需求，减少内外部摩擦，保障项目进度。
+# 📝 Skills
 
-- **核心供应商管理**
+`Gantt Chart` `Excel` `PPT` `Python` `AI Tools`
 
-  - **供应商导入**
-    - 主导超过**5**款芯片在摄像头模组中的预研。成功导入多款芯片，应用场景包含一英寸/超广角/主摄/无人机摄像头等。在预研项目中降本超**50**%，日程达成率**100**%，客户满意度**100**%，售后问题关闭率**100**%。
+- **Project Controls**: Proficient in managing project timelines using Gantt charts; adept at crafting concise, solution-oriented presentations.
 
-# 📝 个人技能
+- **Data Analysis**: Leverage Excel and Python for advanced data analysis, transforming raw data into holistic insights for strategic decision-making.
 
-`Excel` `PPT` `Python` `AI`
+- **Process Automation**: Developed Python automation scripts to streamline repetitive workflows, significantly boosting efficiency and minimizing manual errors.
 
-- 熟练运用常见办公软件，能够使用Excel作甘特图，能够使用PPT简洁描述问题和提供初步解决方案。
+- **Learning Agility**: Leverage AI tools and advanced research methods to accelerate knowledge acquisition and concept validation. Highly adaptable.
 
-- 熟练运用Excel，Python等工具进行数据清洗和数据分析，从全局视角提供问题解决建议。
-
-- 擅长使用Python编写简单自动化办公工具，提升工作效率，减少人为错误。
-
-- 擅长使用AI工具和搜索引擎对新概念和新信息进行筛查和判断。接受能力强、学习速度快。
-
-
- 
 [//]: # (- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. )
 
 [//]: # ()
