@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Juary Wang"
-description              : "A person who is seeking a easy life. Now living and working in Zhejiang. "
+description              : "Engineering Project Manager (EPM) at Sunny Optical Technology. Specializing in NPI, lean management, and mobile camera module projects."
 repository               : "1juary/1juary.github.io"
 google_scholar_stats_use_cdn : false
 
@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Juary Wang"
   avatar           : "images/personal_profile.png"
-#  bio              : "Lorem ipsum College"
+  bio              : "EPM | 5M1E | Solution-oriented "
   location         : "Zhejiang, China"
   employer         :
   pubmed           : 
