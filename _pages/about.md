@@ -77,8 +77,8 @@ I hold a B.S. in **Cyberspace Security** from **Hangzhou Dianzi University** (20
 
 - **Core Supplier Management**
   - **Supplier Introduction & NPI**
-    - Led the technical evaluation and integration of 5+ chipsets for diverse camera modules, spanning 1-inch sensors, ultra-wide, main, and drone camera applications.
-    - Achieved >50% cost reduction in R&D projects, while maintaining a 100% record in schedule adherence, client satisfaction, and issue resolution.
+    - Led the technical evaluation and integration of **5+** chipsets for diverse camera modules, spanning 1-inch sensors, ultra-wide, main, and drone camera applications.
+    - Achieved >50% cost reduction in R&D projects, while maintaining a **100%** record in schedule adherence, client satisfaction, and issue resolution.
 
 # 📝 Skills
 
