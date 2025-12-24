@@ -54,7 +54,7 @@ I hold a B.S. in **Cyberspace Security** from **Hangzhou Dianzi University** (20
 
 # 📖 Education
 - *Sep 2019 - Jun 2023*, B.S. in Cyberspace Security, Hangzhou Dianzi University.
-  - **English Proficiency**: Professional Working Proficiency (CET-6 Certified). Capable of seamless technical communication in all-English environments.
+  - **English Proficiency**:  Capable of seamless technical communication in all-English environments. (CET-6 Certified).
 
 # 👔 Work Experience
 - *Jun 2023 - Present*, **Engineering Project Manager (EPM)** at **Sunny Optical Technology**. 
