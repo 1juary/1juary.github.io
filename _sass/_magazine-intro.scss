@@ -7,13 +7,12 @@
   font-family: $serif;
 
   /* ── Lead paragraph ── */
-  &__lead {
+  .magazine-intro__lead {
     font-size: $type-size-3;
     line-height: 1.5;
     color: $darker-gray;
     margin: 0 0 1.6em;
     letter-spacing: -0.01em;
-    position: relative;
 
     /* Drop cap */
     &::first-letter {
@@ -34,7 +33,7 @@
   }
 
   /* ── Divider ── */
-  &__rule {
+  .magazine-intro__rule {
     width: 60px;
     height: 3px;
     background: $info-color;
@@ -44,7 +43,7 @@
   }
 
   /* ── Detail paragraph ── */
-  &__body {
+  .magazine-intro__body {
     font-size: $type-size-5;
     line-height: 1.8;
     color: $text-color;
