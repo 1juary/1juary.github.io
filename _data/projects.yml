@@ -11,7 +11,7 @@
     - "Optimized Failure Analysis workflows, reducing analysis time by 48 hours"
     - "Managed 50+ Engineering Change Orders per project, coordinating with 10+ internal stakeholders and 10+ client representatives"
     - "Achieved 100% delivery success across 100+ batches with >10% gross margin"
-  image: ""
+  image: "images/project-module-illustration.png"
   tags: ["NPI", "Camera Module", "Yield Optimization", "Risk Management"]
 
 - name: "Core Supplier Management"
