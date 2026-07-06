@@ -1,0 +1,51 @@
+{% comment %}
+  Timeline component
+  Usage: {% include timeline.html type="experience" %}
+         {% include timeline.html type="education" %}
+  Data source: _data/experience.yml or _data/education.yml
+{% endcomment %}
+
+{% case include.type %}
+  {% when "experience" %}
+    {% assign entries = site.data.experience %}
+    {% assign section_title = "💼 Work Experience" %}
+  {% when "education" %}
+    {% assign entries = site.data.education %}
+    {% assign section_title = "📖 Education" %}
+{% endcase %}
+
+{% if entries %}
+<h1>{{ section_title }}</h1>
+
+<div class="timeline">
+  {% for entry in entries %}
+  <div class="timeline__item">
+    <div class="timeline__dot"></div>
+    <div class="timeline__content">
+      <span class="timeline__period">{{ entry.period }}</span>
+      {% if entry.role %}
+        <h3 class="timeline__title">{{ entry.role }}</h3>
+        <h4 class="timeline__subtitle">{{ entry.company }}</h4>
+      {% else %}
+        <h3 class="timeline__title">{{ entry.degree }}</h3>
+        <h4 class="timeline__subtitle">{{ entry.school }}</h4>
+      {% endif %}
+      {% if entry.highlights %}
+        <ul class="timeline__highlights">
+          {% for h in entry.highlights %}
+            <li>{{ h }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+      {% if entry.notes %}
+        <p class="timeline__notes">
+          {% for n in entry.notes %}
+            {{ n }}{% unless forloop.last %}<br>{% endunless %}
+          {% endfor %}
+        </p>
+      {% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endif %}

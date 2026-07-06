@@ -1,0 +1,47 @@
+{% comment %}
+  Project Cards component
+  Data source: _data/projects.yml
+{% endcomment %}
+
+{% assign projects = site.data.projects %}
+
+{% if projects %}
+<h1>📱 Project Experience</h1>
+
+<div class="project-cards">
+  {% for project in projects %}
+  <div class="project-card">
+    {% if project.image and project.image != "" %}
+      <div class="project-card__image">
+        <img src="{{ project.image }}" alt="{{ project.name }}" loading="lazy">
+      </div>
+    {% else %}
+      <div class="project-card__image project-card__image--placeholder">
+        <span>{{ project.name | truncate: 1, "" }}</span>
+      </div>
+    {% endif %}
+    <div class="project-card__body">
+      <h3 class="project-card__title">{{ project.name }}</h3>
+      {% if project.client %}
+        <span class="project-card__client">{{ project.client }}</span>
+      {% endif %}
+      <p class="project-card__summary">{{ project.summary }}</p>
+      {% if project.highlights %}
+        <ul class="project-card__highlights">
+          {% for h in project.highlights %}
+            <li>{{ h }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+      {% if project.tags %}
+        <div class="project-card__tags">
+          {% for tag in project.tags %}
+            <span class="project-card__tag">{{ tag }}</span>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endif %}

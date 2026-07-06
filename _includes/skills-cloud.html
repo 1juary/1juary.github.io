@@ -1,0 +1,23 @@
+{% comment %}
+  Skills Cloud component
+  Data source: _data/skills.yml
+{% endcomment %}
+
+{% assign skills = site.data.skills %}
+
+{% if skills %}
+<h1>🛠️ Skills</h1>
+
+<div class="skills-cloud">
+  {% for group in skills %}
+  <div class="skills-cloud__group">
+    <h3 class="skills-cloud__category">{{ group.category }}</h3>
+    <div class="skills-cloud__tags">
+      {% for skill in group.items %}
+        <span class="skills-cloud__tag">{{ skill }}</span>
+      {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endif %}
