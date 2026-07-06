@@ -23,5 +23,9 @@ group :jekyll_plugins do
   # gem "jekyll-archives"
   gem "jekyll-feed"
   gem 'jekyll-sitemap'
+end
+
+# Local development only — NOT compatible with GitHub Pages
+group :development do
   gem 'hawkins'
 end
