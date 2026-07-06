@@ -7,10 +7,8 @@
 
 # Site Settings
 title                    : "Juary Wang"
-description              : "Engineering Project Manager (EPM) at Sunny Optical Technology. Specializing in NPI, lean management, and mobile camera module projects."
+description              : "Engineering Project Manager (EPM). Specializing in NPI, lean management, and mobile camera module projects."
 repository               : "1juary/1juary.github.io"
-google_scholar_stats_use_cdn : false
-
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
 
@@ -66,7 +64,6 @@ include:
   - files
 exclude:
   - docs
-  - google_scholar_crawler
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
