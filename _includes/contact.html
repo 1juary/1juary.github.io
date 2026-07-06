@@ -32,6 +32,14 @@
     <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" class="contact__card-link">linkedin.com/in/{{ site.author.linkedin }}</a>
   </div>
   {% endif %}
+
+  {% if site.author.wechat %}
+  <div class="contact__card">
+    <div class="contact__card-icon">💬</div>
+    <h3 class="contact__card-title">WeChat</h3>
+    <p class="contact__card-text">{{ site.author.wechat }}</p>
+  </div>
+  {% endif %}
 </div>
 
 <p class="contact__note"><em>I typically respond within 24 hours on business days.</em></p>
