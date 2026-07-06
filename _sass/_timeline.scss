@@ -1,0 +1,83 @@
+/* ==========================================================================
+   Timeline (experience & education)
+   ========================================================================== */
+
+.timeline {
+  position: relative;
+  padding-left: 2em;
+  margin: 1.5em 0;
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: $border-color;
+  }
+}
+
+.timeline__item {
+  position: relative;
+  margin-bottom: 2em;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.timeline__dot {
+  position: absolute;
+  left: -2em;
+  top: 0.4em;
+  width: 12px;
+  height: 12px;
+  margin-left: -5px;
+  border-radius: 50%;
+  background: $info-color;
+  border: 2px solid lighten($info-color, 20%);
+}
+
+.timeline__content {
+  padding-left: 0.5em;
+}
+
+.timeline__period {
+  display: inline-block;
+  font-size: $type-size-7;
+  color: $gray;
+  background: $lighter-gray;
+  padding: 0.15em 0.6em;
+  border-radius: 3px;
+  margin-bottom: 0.3em;
+}
+
+.timeline__title {
+  margin: 0 0 0.1em;
+  font-size: $type-size-5;
+  color: $text-color;
+}
+
+.timeline__subtitle {
+  margin: 0 0 0.5em;
+  font-size: $type-size-6;
+  font-weight: normal;
+  color: $gray;
+}
+
+.timeline__highlights {
+  margin: 0.5em 0 0;
+  padding-left: 1.2em;
+  font-size: $type-size-6;
+
+  li {
+    margin-bottom: 0.25em;
+  }
+}
+
+.timeline__notes {
+  margin: 0.3em 0 0;
+  font-size: $type-size-6;
+  color: $gray;
+}

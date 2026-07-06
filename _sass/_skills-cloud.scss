@@ -1,0 +1,35 @@
+/* ==========================================================================
+   Skills Cloud
+   ========================================================================== */
+
+.skills-cloud {
+  margin: 1.5em 0;
+}
+
+.skills-cloud__group {
+  margin-bottom: 1.2em;
+}
+
+.skills-cloud__category {
+  margin: 0 0 0.5em;
+  font-size: $type-size-6;
+  color: $gray;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.skills-cloud__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+}
+
+.skills-cloud__tag {
+  display: inline-block;
+  font-size: $type-size-6;
+  padding: 0.35em 0.8em;
+  background: $info-color;
+  color: #fff;
+  border-radius: 20px;
+  white-space: nowrap;
+}

@@ -1,0 +1,105 @@
+/* ==========================================================================
+   Project Cards
+   ========================================================================== */
+
+.project-cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5em;
+  margin: 1.5em 0;
+
+  @include breakpoint($medium) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.project-card {
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  overflow: hidden;
+  background: #fff;
+  transition: box-shadow 0.2s ease;
+
+  &:hover {
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.project-card__image {
+  width: 100%;
+  height: 140px;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &--placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, $info-color 0%, lighten($info-color, 20%) 100%);
+
+    span {
+      font-size: 3em;
+      font-weight: bold;
+      color: rgba(255, 255, 255, 0.6);
+    }
+  }
+}
+
+.project-card__body {
+  padding: 1em;
+}
+
+.project-card__title {
+  margin: 0 0 0.2em;
+  font-size: $type-size-5;
+  color: $text-color;
+}
+
+.project-card__client {
+  display: inline-block;
+  font-size: $type-size-7;
+  color: $info-color;
+  background: transparentize($info-color, 0.9);
+  padding: 0.1em 0.5em;
+  border-radius: 3px;
+  margin-bottom: 0.5em;
+}
+
+.project-card__summary {
+  font-size: $type-size-6;
+  color: $text-color;
+  margin: 0.5em 0;
+  line-height: 1.5;
+}
+
+.project-card__highlights {
+  margin: 0.5em 0;
+  padding-left: 1.2em;
+  font-size: $type-size-6;
+  line-height: 1.5;
+
+  li {
+    margin-bottom: 0.2em;
+  }
+}
+
+.project-card__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em;
+  margin-top: 0.8em;
+}
+
+.project-card__tag {
+  display: inline-block;
+  font-size: $type-size-8;
+  padding: 0.2em 0.6em;
+  background: $lighter-gray;
+  color: $gray;
+  border-radius: 3px;
+}
