@@ -1,0 +1,24 @@
+# Skills
+# Grouped by category. Add or remove items freely.
+
+- category: "Project Management"
+  items:
+    - "Gantt Chart"
+    - "NPI Management"
+    - "Lean Manufacturing"
+    - "Risk Management (5M1E)"
+    - "ECO Management"
+    - "Cross-functional Collaboration"
+
+- category: "Technical"
+  items:
+    - "Python"
+    - "Data Analysis"
+    - "Excel"
+    - "Process Automation"
+    - "AI Tools"
+
+- category: "Languages"
+  items:
+    - "Chinese (Native)"
+    - "English (Professional, CET-6)"

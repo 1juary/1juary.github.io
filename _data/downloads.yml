@@ -1,0 +1,11 @@
+# Downloadable Files
+# Add files to the "files/" directory, then list them here.
+# Example: put "resume.pdf" in files/, then add an entry below.
+
+# - name: "Resume (PDF)"
+#   description: "My latest resume in PDF format."
+#   file: "files/resume.pdf"
+
+# - name: "Certificate Example"
+#   description: "Professional certification."
+#   file: "files/certificate.pdf"
