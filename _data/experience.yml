@@ -2,9 +2,18 @@
 # To add a new entry, copy the block below and fill in your details.
 # Order: displayed in file order (top = most recent recommended)
 
+- company: "Framely"
+  role: "Project Manager"
+  period: "May 2026 - Present"
+  highlights:
+    - "Lead end-to-end project management across multiple concurrent initiatives, overseeing scope definition, resource allocation, timeline planning, and deliverable tracking to ensure on-time and on-budget completion."
+    - "Establish and maintain project governance frameworks — including milestone dashboards, risk registers, and stage-gate reviews — providing stakeholders with full visibility into progress, blockers, and key decisions."
+    - "Drive cross-functional collaboration between engineering, design, and business teams, facilitating regular syncs and removing impediments to keep workstreams aligned with strategic priorities."
+    - "Implement agile practices and continuous improvement cycles (retrospectives, root-cause analysis) to shorten feedback loops and increase team velocity quarter over quarter."
+
 - company: "Sunny Optical Technology"
   role: "Engineering Project Manager (EPM)"
-  period: "Jun 2023 - Present"
+  period: "Jun 2023 - May 2026"
   highlights:
     - "Managed the full lifecycle (R&D to Mass Production) of mobile camera modules for North American clients, with a primary focus on on-time delivery and quality assurance."
     - "Enhanced team efficiency by eliminating over 500 man-hours (approx. 30,000 mins) of ineffective meeting time and establishing 10+ high-quality SOPs."
