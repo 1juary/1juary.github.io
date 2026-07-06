@@ -8,11 +8,15 @@ redirect_from:
   - /about.html
 ---
 
-<span class='anchor' id='about-me'></span>
+<span class="anchor" id="about-me"></span>
 
-I am an **Engineering Project Manager (EPM)** at **Sunny Optical Technology**, specializing in the full lifecycle management (NPI to Mass Production) of mobile camera modules for North American clients.
+<div class="magazine-intro" markdown="0">
+  <p class="magazine-intro__lead">I am an <strong>Engineering Project Manager (EPM)</strong> at <strong>Sunny Optical Technology</strong>, specializing in the full lifecycle management (NPI to Mass Production) of mobile camera modules for North American clients.</p>
 
-I hold a B.S. in **Cyberspace Security** from **Hangzhou Dianzi University** (2019-2023). My expertise lies in technical project management, cross-functional collaboration, and lean manufacturing. I am proficient in **Python and Data Analysis**, leveraging these skills to automate workflows and drive efficiency in complex manufacturing environments.
+  <hr class="magazine-intro__rule">
+
+  <div class="magazine-intro__body">I hold a B.S. in <strong>Cyberspace Security</strong> from <strong>Hangzhou Dianzi University</strong> (2019-2023). My expertise lies in technical project management, cross-functional collaboration, and lean manufacturing. I am proficient in <strong>Python and Data Analysis</strong>, leveraging these skills to automate workflows and drive efficiency in complex manufacturing environments.</div>
+</div>
 
 {% include timeline.html type="experience" %}
 

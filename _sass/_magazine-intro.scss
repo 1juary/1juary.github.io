@@ -1,0 +1,64 @@
+/* ==========================================================================
+   Magazine-style intro
+   ========================================================================== */
+
+.magazine-intro {
+  margin: 2em 0 3em;
+  font-family: $serif;
+
+  /* ── Lead paragraph ── */
+  &__lead {
+    font-size: $type-size-3;
+    line-height: 1.5;
+    color: $darker-gray;
+    margin: 0 0 1.6em;
+    letter-spacing: -0.01em;
+    position: relative;
+
+    /* Drop cap */
+    &::first-letter {
+      float: left;
+      font-size: 4.2em;
+      line-height: 0.75;
+      font-weight: 700;
+      padding-right: 0.12em;
+      padding-top: 0.04em;
+      color: $info-color;
+      font-family: $serif;
+    }
+
+    @include breakpoint($medium) {
+      font-size: 1.6em;
+      max-width: 90%;
+    }
+  }
+
+  /* ── Divider ── */
+  &__rule {
+    width: 60px;
+    height: 3px;
+    background: $info-color;
+    border: 0;
+    margin: 0 0 1.8em;
+    opacity: 0.6;
+  }
+
+  /* ── Detail paragraph ── */
+  &__body {
+    font-size: $type-size-5;
+    line-height: 1.8;
+    color: $text-color;
+
+    @include breakpoint($medium) {
+      columns: 2;
+      column-gap: 2.5em;
+      column-rule: 1px solid $border-color;
+    }
+  }
+
+  /* ── Highlighted terms ── */
+  strong {
+    color: $info-color;
+    font-weight: 600;
+  }
+}
