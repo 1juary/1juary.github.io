@@ -1,0 +1,37 @@
+<span class="anchor" id="contact"></span>
+
+<h1>📧 Contact</h1>
+
+<p class="contact__intro">Feel free to reach out — I'm always open to discussing new opportunities, collaborations, or questions.</p>
+
+<div class="contact__grid">
+  <div class="contact__card">
+    <div class="contact__card-icon">✉️</div>
+    <h3 class="contact__card-title">Email</h3>
+    <a href="mailto:{{ site.author.email }}" class="contact__card-link">{{ site.author.email }}</a>
+  </div>
+
+  <div class="contact__card">
+    <div class="contact__card-icon">📍</div>
+    <h3 class="contact__card-title">Location</h3>
+    <p class="contact__card-text">{{ site.author.location }}</p>
+  </div>
+
+  {% if site.author.github %}
+  <div class="contact__card">
+    <div class="contact__card-icon">💻</div>
+    <h3 class="contact__card-title">GitHub</h3>
+    <a href="https://github.com/{{ site.author.github }}" class="contact__card-link">github.com/{{ site.author.github }}</a>
+  </div>
+  {% endif %}
+
+  {% if site.author.linkedin %}
+  <div class="contact__card">
+    <div class="contact__card-icon">🔗</div>
+    <h3 class="contact__card-title">LinkedIn</h3>
+    <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" class="contact__card-link">linkedin.com/in/{{ site.author.linkedin }}</a>
+  </div>
+  {% endif %}
+</div>
+
+<p class="contact__note"><em>I typically respond within 24 hours on business days.</em></p>

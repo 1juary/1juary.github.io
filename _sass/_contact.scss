@@ -1,0 +1,74 @@
+/* ==========================================================================
+   Contact
+   ========================================================================== */
+
+.contact__intro {
+  font-size: $type-size-5;
+  margin-bottom: 1.5em;
+  color: $gray;
+}
+
+.contact__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1em;
+  margin: 1.5em 0;
+
+  @include breakpoint($medium) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include breakpoint($large) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.contact__card {
+  padding: 1.5em;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  text-align: center;
+  transition: box-shadow 0.25s ease-in-out, transform 0.25s ease-in-out;
+
+  &:hover {
+    box-shadow: 0 4px 16px rgba(#000, 0.1);
+    transform: translateY(-2px);
+  }
+}
+
+.contact__card-icon {
+  font-size: 2em;
+  margin-bottom: 0.4em;
+}
+
+.contact__card-title {
+  margin: 0 0 0.3em;
+  font-family: $sans-serif;
+  font-size: $type-size-5;
+  color: $text-color;
+}
+
+.contact__card-text {
+  margin: 0;
+  font-size: $type-size-6;
+  color: $gray;
+}
+
+.contact__card-link {
+  display: inline-block;
+  font-size: $type-size-6;
+  color: $info-color;
+  text-decoration: none;
+  font-weight: bold;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.contact__note {
+  text-align: center;
+  margin-top: 1.5em;
+  font-size: $type-size-6;
+  color: $gray;
+}

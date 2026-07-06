@@ -1,0 +1,26 @@
+<span class="anchor" id="downloads"></span>
+
+<h1>📥 Downloads</h1>
+
+{% assign files = site.data.downloads %}
+
+{% if files and files.size > 0 %}
+  <div class="downloads-list">
+  {% for item in files %}
+    <div class="downloads-list__item">
+      <div class="downloads-list__info">
+        <h3>{{ item.name }}</h3>
+        <p>{{ item.description }}</p>
+      </div>
+      <a href="{{ item.file }}" class="downloads-list__link">
+        <span class="downloads-list__icon">⬇️</span> Download
+      </a>
+    </div>
+  {% endfor %}
+  </div>
+{% else %}
+  <div class="downloads-empty">
+    <p>📂</p>
+    <p>No files available yet. Check back soon!</p>
+  </div>
+{% endif %}

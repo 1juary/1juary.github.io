@@ -4,7 +4,7 @@ main:
     url: "/#about-me"
 
   - title: "Contact"
-    url: "/contact/"
+    url: "/#contact"
 
   - title: "Downloads"
-    url: "/downloads/"
+    url: "/#downloads"

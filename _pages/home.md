@@ -21,3 +21,7 @@ I hold a B.S. in **Cyberspace Security** from **Hangzhou Dianzi University** (20
 {% include project-cards.html %}
 
 {% include skills-cloud.html %}
+
+{% include contact.html %}
+
+{% include downloads.html %}

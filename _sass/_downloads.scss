@@ -7,10 +7,24 @@
 }
 
 .downloads-list__item {
-  padding: 1.2em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1em;
+  padding: 1.2em 1.5em;
   border: 1px solid $border-color;
   border-radius: $border-radius;
   margin-bottom: 1em;
+  transition: box-shadow 0.25s ease-in-out, transform 0.25s ease-in-out;
+
+  &:hover {
+    box-shadow: 0 4px 16px rgba(#000, 0.1);
+    transform: translateY(-2px);
+  }
+}
+
+.downloads-list__info {
+  flex: 1;
 
   h3 {
     margin: 0 0 0.3em;
@@ -18,20 +32,44 @@
   }
 
   p {
-    margin: 0 0 0.5em;
+    margin: 0;
     font-size: $type-size-6;
     color: $gray;
   }
 }
 
 .downloads-list__link {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  flex-shrink: 0;
+  padding: 0.5em 1em;
   font-size: $type-size-6;
-  color: $info-color;
+  color: #fff;
+  background: $info-color;
+  border-radius: $border-radius;
   text-decoration: none;
   font-weight: bold;
+  transition: background 0.2s ease-in-out;
 
   &:hover {
-    text-decoration: underline;
+    background: darken($info-color, 8%);
+    text-decoration: none;
+  }
+}
+
+.downloads-list__icon {
+  font-size: 1.1em;
+}
+
+.downloads-empty {
+  text-align: center;
+  padding: 3em 0;
+  color: $gray;
+  font-size: $type-size-5;
+
+  p:first-child {
+    font-size: 3em;
+    margin-bottom: 0.3em;
   }
 }
