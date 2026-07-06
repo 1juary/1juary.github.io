@@ -10,21 +10,13 @@
 
 .contact__grid {
   display: grid;
-  grid-template-columns: 1fr;
-  gap: 1em;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 0.75em;
   margin: 1.5em 0;
-
-  @include breakpoint($medium) {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  @include breakpoint($large) {
-    grid-template-columns: repeat(2, 1fr);
-  }
 }
 
 .contact__card {
-  padding: 1.5em;
+  padding: 1em 1.2em;
   border: 1px solid $border-color;
   border-radius: $border-radius;
   text-align: center;
@@ -37,8 +29,8 @@
 }
 
 .contact__card-icon {
-  font-size: 2em;
-  margin-bottom: 0.4em;
+  font-size: 1.5em;
+  margin-bottom: 0.25em;
 }
 
 .contact__card-title {
