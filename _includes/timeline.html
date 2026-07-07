@@ -15,6 +15,46 @@
 {% endcase %}
 
 {% if entries %}
+
+{% if include.type == "experience" %}
+<!-- ========== Magazine Interview Layout ========== -->
+<h1>{{ section_title }}</h1>
+<hr class="section-rule">
+
+<div class="exp-magazine">
+  {% for entry in entries %}
+  <div class="exp-magazine__item">
+    <!-- Left: Timeline -->
+    <div class="exp-magazine__timeline">
+      <span class="exp-magazine__period">{{ entry.period }}</span>
+      <div class="exp-magazine__dot"></div>
+    </div>
+
+    <!-- Right: Content -->
+    <div class="exp-magazine__body">
+      <p class="exp-magazine__company">{{ entry.company }}</p>
+      <h2 class="exp-magazine__role">{{ entry.role }}</h2>
+
+      <div class="exp-magazine__content">
+        <div class="exp-magazine__text">
+          {% for h in entry.highlights %}
+          <p>{{ h }}</p>
+          {% endfor %}
+        </div>
+        {% if entry.pull_quote %}
+        <aside class="exp-magazine__quote">
+          <span class="exp-magazine__quote-mark">"</span>
+          <p>{{ entry.pull_quote }}</p>
+        </aside>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+{% else %}
+<!-- ========== Classic Timeline Layout ========== -->
 <h1>{{ section_title }}</h1>
 
 <div class="timeline">
@@ -48,4 +88,6 @@
   </div>
   {% endfor %}
 </div>
+{% endif %}
+
 {% endif %}

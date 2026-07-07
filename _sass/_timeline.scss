@@ -81,3 +81,188 @@
   font-size: $type-size-6;
   color: $gray;
 }
+
+
+/* ==========================================================================
+   Magazine Experience (immersive interview style)
+   ========================================================================== */
+
+.section-rule {
+  border: 0;
+  height: 1px;
+  background: $border-color;
+  margin: 0.4em 0 2em;
+}
+
+.exp-magazine {
+  margin: 1.5em 0 2em;
+}
+
+.exp-magazine__item {
+  display: grid;
+  grid-template-columns: 130px 1fr;
+  gap: 24px;
+  margin-bottom: 3em;
+  position: relative;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+/* ── Left column: timeline ── */
+
+.exp-magazine__timeline {
+  position: relative;
+  text-align: right;
+  padding-top: 0.15em;
+
+  /* vertical line connecting dots */
+  &::after {
+    content: '';
+    position: absolute;
+    right: -13px;  /* half gap - half line width */
+    top: 2.1em;
+    bottom: -3em;
+    width: 2px;
+    background: $border-color;
+  }
+}
+
+.exp-magazine__item:last-child .exp-magazine__timeline::after {
+  display: none;
+}
+
+/* Make first item's line start at the dot, not above it */
+.exp-magazine__item:first-child .exp-magazine__timeline::after {
+  top: 2.1em;
+}
+
+.exp-magazine__period {
+  display: inline-block;
+  font-size: $type-size-7;
+  color: $gray;
+  background: $lighter-gray;
+  padding: 0.2em 0.65em;
+  border-radius: 3px;
+  white-space: nowrap;
+}
+
+.exp-magazine__dot {
+  position: absolute;
+  right: -17px;  /* half gap - half dot width */
+  top: 0.45em;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: $info-color;
+  z-index: 1;
+}
+
+/* ── Right column: content ── */
+
+.exp-magazine__body {
+  min-width: 0;
+}
+
+.exp-magazine__company {
+  font-size: $type-size-7;
+  color: $gray;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  margin: 0 0 0.1em;
+  font-weight: 500;
+}
+
+.exp-magazine__role {
+  font-size: $type-size-2;
+  font-weight: 700;
+  color: $text-color;
+  margin: 0 0 0.55em;
+  line-height: 1.15;
+}
+
+/* ── Content row: paragraphs + pull quote ── */
+
+.exp-magazine__content {
+  display: grid;
+  grid-template-columns: 1fr 260px;
+  gap: 2em;
+  align-items: start;
+}
+
+.exp-magazine__text {
+  p {
+    margin: 0 0 0.55em;
+    font-size: $type-size-6;
+    line-height: 1.7;
+    color: $text-color;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+/* ── Pull quote ── */
+
+.exp-magazine__quote {
+  position: relative;
+  background: lighten($info-color, 68%);
+  border-left: 3px solid $info-color;
+  padding: 1.3em 1.1em 1.1em;
+  border-radius: 0 4px 4px 0;
+
+  p {
+    margin: 0;
+    font-size: 0.95em;
+    line-height: 1.55;
+    color: $info-color;
+    font-style: italic;
+    font-family: $serif;
+    position: relative;
+    z-index: 1;
+  }
+}
+
+.exp-magazine__quote-mark {
+  position: absolute;
+  top: -0.1em;
+  left: 0.1em;
+  font-size: 4.5em;
+  color: $info-color;
+  font-family: $serif;
+  line-height: 0.7;
+  opacity: 0.18;
+  pointer-events: none;
+}
+
+/* ── Responsive ── */
+
+@include breakpoint($medium) {
+  .exp-magazine__item {
+    grid-template-columns: 80px 1fr;
+    gap: 16px;
+    margin-bottom: 2.5em;
+  }
+
+  .exp-magazine__timeline::after {
+    right: -9px;
+  }
+
+  .exp-magazine__dot {
+    right: -13px;
+  }
+
+  .exp-magazine__content {
+    grid-template-columns: 1fr;
+  }
+
+  .exp-magazine__role {
+    font-size: $type-size-3;
+  }
+
+  .exp-magazine__quote {
+    margin-top: 0.5em;
+  }
+}
